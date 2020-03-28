@@ -28,6 +28,8 @@ color: white;
 
 li{
     list-style-type: none;
+    opacity: 0;
+
 }
 textarea{
 
@@ -40,7 +42,7 @@ textarea{
   <div class="row">
     <div class="col-sm-12"  id="bt1">
     	<center><button onclick="responsiveVoice.speak(document.getElementById('intro').textContent);" id="btn1" class="btn btn-success btn-lg">Start Test</button></center>
-        <span id="intro">Hello world</span>
+        <span id="intro">My name is Who.Robot, My job is to conduct a test on covid-19 for you, the authenticy of this test depends on the sincere respond you give me so let's start</span>
 
     </div>
 
@@ -91,7 +93,7 @@ var finish = "start";
         $('#bt1').click(function(){
             setTimeout(function(){
 var q1 = responsiveVoice.speak(document.getElementById('li1').textContent);
-            },5000)
+            },1400)
         })
 
  $('#subans').click(function(){
