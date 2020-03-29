@@ -1,0 +1,1067 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: HEALTHCARE - HTML Mobile Template
+    Template URI: http://devitems.com/
+    Description: This is Mobile Template
+    Author: BootExperts
+    Author URI: http://devitems.com/author/madhusudan/
+    Version: 1.0
+
+
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+    2. left sidebar css
+  	3. home css
+    4. about css
+    5. service area css
+    6. our doctors area css
+    7. our department area css
+    8. Testimonials area css
+    9. blog page css
+    10. blog details page css
+    11. book appointment page css
+    12. about department css
+    13. about doctor css
+    14. gallery  page css
+    15. Pharmacy  page css
+    16. message all page css
+    17. live chat css
+    18. contact us page css
+    19. register login  page css
+
+	
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;font-weight: 400;font-size: 15px;line-height: 22px; color: #fff;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;font-family: 'Lato', sans-serif; color:#fff;font-weight: 500;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;color:inherit;}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+a.closebutton {
+  color: #ffffff;
+  float: right;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+.fix{overflow: hidden;}
+.clear{clear:both}
+input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[type=password]:focus,.contact-form textarea:focus{border:1px solid #51B8F2;}
+body{font-family: 'Lato', sans-serif; }
+
+/*-----------------------
+2. left sidebar css
+--------------------------*/
+body.with-panel-left-reveal .views {
+  transform: translate3d(270px, 0px, 0px);
+}
+.panel {
+  width: 270px;
+}
+.content-bg {
+  background: #285969 none repeat scroll 0 0;
+  min-height: 100%;
+}
+.home-logo {
+  padding: 10px 0 20px;
+}
+.home-screen {
+  padding: 30px 20px 50px;
+  text-align: center;
+}
+.overlay-bg {
+  min-height: 100%;
+}
+.navbar, .subnavbar, .toolbar, .navbar-inner {
+  background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
+}
+.toolbar-custome .link {
+  color: #fff;
+  padding: 0 10px;
+  text-align: center;
+}
+.toolbar.toolbar-custome {
+  height: 60px;
+}
+.link > a {
+  font-size: 14px;
+}
+.link > a i {
+  font-size: 20px;
+}
+.single-menu a i {
+  background: #51b8f2 none repeat scroll 0 0;
+  border: 1px solid #555;
+  border-radius: 100%;
+  font-size: 25px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 50px;
+}
+.single-menu {
+  color: #fff;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.single-menu > a {
+  display: block;
+  font-size: 15px;
+}
+.page-menu .row .col-33:nth-child(1) .single-menu a i{background: #5e366a;}
+.page-menu .row .col-33:nth-child(2) .single-menu a i{background: #bdbd31;}
+.page-menu .row .col-33:nth-child(3) .single-menu a i{background: #bd3131;}
+.page-menu .row .col-33:nth-child(4) .single-menu a i{background: #77bd31;}
+.page-menu .row .col-33:nth-child(5) .single-menu a i{background: #bd7731;}
+.page-menu .row .col-33:nth-child(6) .single-menu a i{background: #31bd77;}
+.page-menu .row .col-33:nth-child(7) .single-menu a i{background: #3131bd;}
+.page-menu .row .col-33:nth-child(8) .single-menu a i{background: #31bdbd;}
+.page-menu .row .col-33:nth-child(9) .single-menu a i{background: #f87d09;}
+.page-menu .row .col-33:nth-child(10) .single-menu a i{background: #6E3274;}
+.page-menu .row .col-33:nth-child(11) .single-menu a i{background: #60e550;}
+.logo-box {
+  padding: 20px 0;
+  text-align: center;
+}
+.pages-menu-show,.shop-menu-show{display: none;}
+/*------------------------
+3. home css
+--------------------------*/
+.button.button-big.goto {
+  line-height: 46px;
+  margin-bottom: 22px;
+}
+.login-after-text h4, .login-after-text h5 {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.login-after-text h5 {
+  font-size: 14px;
+  margin-bottom: 22px;
+  text-transform: none;
+}
+.center.sliding {
+  text-transform: uppercase;
+}
+.register-content.index-page .form-content-box {
+  margin: 18px auto 0;
+}
+.register-content.index-page .login-logo {
+  padding: 60px 0 0;
+}
+.register-content.index-page .login-after-text h5 {
+  line-height: 21px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-transform: none;
+}
+.navbar, .toolbar {
+  font-size: 17px;
+  height: 50px;
+}
+.content-block-inner {
+  background: #ffffff none repeat scroll 0 0;
+  color: #222;
+  margin-left: -15px;
+  padding: 10px 15px;
+  position: relative;
+  width: 100%;
+}
+.navbar-inner{
+  color: #fff;
+}
+ .toolbar-inner {
+  border-bottom: 1px solid #ccc;
+  color: #111;
+  padding: 30px 8px;
+}
+.center.sliding > h4 {
+  margin-bottom: 0;
+}
+.navbar-inner h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 13px;
+}
+.navbar::after {
+ opacity:0;
+}
+.navbar {
+  margin-bottom:0px;
+  border:none;
+}
+.navbar-fixed .page-content, .navbar-through .page-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.back.link i{font-size:25px;}
+.page {
+  background: #fff none repeat scroll 0 0;
+  top:0px;
+}
+/*--------------
+4. about css
+----------------*/
+.stander-row {
+  padding: 15px 15px;
+}
+.section-heading > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+}
+.about-content > p {
+  font-size: 15px;
+  text-align: justify;
+}
+.about-content {
+  text-align: center;
+}
+.about-content a {
+  background: #51b8f2 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  padding: 6px 18px;
+}
+.section-border {
+  margin-top: 15px;
+}
+.section-heading {
+  margin-bottom: 25px;
+}
+.aboutpage > p {
+  margin: 0;
+  padding: 15px 15px 0;
+}
+.aboutpage p.p-footer{padding-bottom: 15px;}
+.section-heading > h3::after {
+  background: #51b8f2 none repeat scroll 0 0;
+  bottom: -4px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 75px;
+}
+/*-----------------------
+5. service area css
+--------------------------*/
+.stander-row.service {
+  padding: 25px 15px 0;
+}
+.content-box {
+  margin-bottom: 10px;
+}
+.content-box:last-child{margin-bottom: 0;}
+.text-icon {
+  float: left;
+  text-align: center;
+  width: 82px;
+}
+.text-icon i {
+  color: #fff;
+  font-size: 50px;
+  position: relative;
+  top: 3px;
+}
+.box-text{overflow: hidden;}
+.box-text > h3,.department-text > h3 {
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+/*-----------------------
+6. our doctors area css
+--------------------------*/
+.social-icon ul li a {
+  background: #51b8f2 none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+}
+.doctor-details > img {
+  width: 100%;
+}
+.social-icon li {
+  margin-bottom: 2px;
+  text-align: center;
+}
+.doctor-details {
+  line-height: 0;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+}
+.doctors-text {
+  background: rgba(255, 255, 255, 0.78) none repeat scroll 0 0;
+  bottom: 0;
+  line-height: 19px;
+  padding: 0 5px;
+  position: absolute;
+  width: 100%;
+}
+.social-icon {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.doctors-text > h3 {
+  margin: 0;
+}
+.doctors-text a {
+  color: #444;
+}
+.doctors-text > h5 {
+  font-style: italic;
+  margin-bottom: 2px;
+  color: #444;
+}
+.doctor-details.all-doctor,.click-all-doctor-hide,.click-all-department-hide,.all-department {
+  display: none;
+}
+.click-all-doctor-show,.click-all-doctor-hide,.click-all-department-show,.click-all-department-hide {
+  background: #51b8f2 none repeat scroll 0 0;
+  bottom: -20px;
+  color: #fff;
+  float: right;
+  left: 50%;
+  margin-left: -54px;
+  padding: 5px 30px;
+  position: absolute;
+}
+.doctors-content,.department-content {
+  position: relative;
+  margin-bottom: 20px;
+}
+/*-----------------------
+7. our department area css
+--------------------------*/
+.department-box {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+}
+.department-img > img {
+  background: #51b8f2 none repeat scroll 0 0;
+  border-radius: 100%;
+  padding: 10px;
+}
+.department-text > p {
+  margin-bottom: 0;
+}
+.department-box > a {
+  display: block;
+  padding: 10% 0;
+}
+/*------------------------
+8. Testimonials area css
+--------------------------*/
+.testimonial-text {
+  border: 1px solid #ccc;
+  padding: 9px;
+  position: relative;
+}
+.testimonial-text > span {
+  float: right;
+}
+.testimonial-text:before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ededed;
+  bottom: -10px;
+  content: "";
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+}
+.testimonial-text::after {
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #285969;
+  bottom: -8px;
+  content: "";
+  left: 50%;
+  margin-left: -9px;
+  position: absolute;
+}
+.single-testimonial > h4,.single-testimonial h5 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.single-testimonial {
+  line-height: 14px !important;
+}
+.testimonial-img {
+  margin: 15px auto;
+  text-align: center;
+}
+.testimonial-img img {
+  border: 3px solid #ccc;
+  border-radius: 100%;
+  width: 100px !important;
+}
+/*------------------------
+9. blog page css
+--------------------------*/
+.stander-row.bolg-row {
+  padding: 15px 0;
+}
+.stander-row.bolg-row .section-heading {
+  padding: 0 15px;
+}
+.blog-content {
+  margin-top: 30px;
+}
+.admin-img{
+  float: left;
+  margin-right: 10px;
+  width: 34px;
+}
+.admin-img > img,.comment-img img {
+  border: 1px solid #6e3090;
+  border-radius: 100%;
+}
+.admin-name {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.blog-admin {
+  float: left;
+  width: 67%;
+}
+.blog-time {
+  color: #fff;
+  float: right;
+  padding: 10px 0;
+}
+.blog-heading, .blog-text {
+  overflow: hidden;
+  padding: 0 15px;
+}
+.blog-img {
+  padding: 20px 0 10px;
+}
+.blog-img img,.content-img img {
+  width: 100%;
+} {
+  width: 100%;
+}
+.blog-text h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.blog-text > p {
+  margin-bottom: 5px;
+}
+.blog-text > a {
+  color: #51b8f2;
+  float: right;
+  font-size: 12px;
+}
+.blog-comment, .blog-heading {
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  margin-top: 16px;
+  overflow: hidden;
+  padding: 9px 15px;
+}
+.blog-comment ul li {
+  float: left;
+  text-align: center;
+  width: 33.333%;
+}
+.blog-comment ul li:first-child{text-align: left;}
+.blog-comment ul li:last-child{text-align: right;}
+.blog-comment ul li a i {
+  color: #fff;
+  font-size: 20px;
+  left: -2px;
+  position: relative;
+  top: 4px;
+}
+.blog-comment ul li a:focus{color: #E0088C;}
+.blog-comment a {
+  color: #fff;
+  font-size: 14px;
+}
+.blog-page .section-border {
+  margin-top: 17px;
+}
+.single-main {
+  margin-top: 25px;
+}
+.single-main:first-child{margin: 0}
+.show-blog, .feature-load, .popular-load, .click-video {
+  background: #51b8f2 none repeat scroll 0 0;
+  border-radius: 100%;
+  box-shadow: 0 -2px 197px -76px rgba(0, 0, 0, 0.58);
+  color: #ffffff;
+  display: inline-block;
+  float: right;
+  font-size: 26px;
+  line-height: 7px;
+  margin-right: 15px;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.single-main.show-more,.single-main.show-more-feature,.show-more-popular {
+  display: none;
+}
+.video-page, .gallery-page {
+  overflow: hidden;
+}
+.section-border.show-more,.show-video {
+  display: none;
+}
+.view-button {
+  text-align: center;
+}
+.view-button > a {
+  background: #51b8f2 none repeat scroll 0 0;
+  color: #fff;
+  padding: 5px 10px;
+}
+/*------------------------
+10. blog details page css
+--------------------------*/
+.blog-text.details {
+  padding-top: 15px;
+}
+.blog-text.details > p {
+  margin-bottom: 10px;
+}
+.blog-comment-main {
+  padding: 30px 15px 0;
+}
+.comment-img a img {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  position: relative;
+  top: 0;
+  width: 30px;
+}
+.comment-text {
+  border: 1px solid #cccccc;
+  margin-left: 52px;
+  padding: 0 10px;
+  position: relative;
+}
+.comment-text > p {
+  margin: 0;
+  padding: 10px 0;
+}
+.bolg-comment ul li ul {
+  margin-left: 18px;
+  padding: 13px 0;
+}
+.comment-text > button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #51b8f2;
+  cursor: pointer;
+  float: right;
+  font-size: 10px;
+  padding: 5px 0 0;
+}
+.comment-text > button i {
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  top: 2px;
+}
+.comment-text::before {
+  background: #cccccc none repeat scroll 0 0;
+  content: "";
+  height: 14px;
+  left: -9.5px;
+  position: absolute;
+  top: 10px;
+  transform: rotate(47deg);
+  width: 16px;
+}
+.comment-text::after {
+  background: #285969 none repeat scroll 0 0;
+  content: "";
+  height: 14px;
+  left: -8.5px;
+  position: absolute;
+  top: 10px;
+  transform: rotate(47deg);
+  width: 16px;
+}
+.leave-comment {
+  margin-top: 20px;
+}
+.input-box i {
+  background: #6e3090 none repeat scroll 0 0;
+  border: medium none;
+  color: #ffffff;
+  cursor: pointer;
+  float: left;
+  font-size: 23px;
+  height: 22px;
+  padding: 18px;
+}
+.input-box > button {
+  background: #e0088c none repeat scroll 0 0;
+  border: medium none;
+  cursor: pointer;
+  outline: medium none;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.input-box > input {
+  border: medium none;
+  box-sizing: border-box;
+  float: left;
+  padding: 22px 63px 20px 16px;
+  width: 79%;
+}
+.input-box i.pe-7s-paper-plane{background: #E0088C none repeat scroll 0 0;}
+.input-box {
+  border: 1px solid #cccccc;
+  position: relative;
+  overflow: hidden;
+}
+.input-box > input:focus {
+  border: medium none;
+}
+.footer-row{
+  text-align: center;
+}
+/*------------------------
+11. book appointment page css
+--------------------------*/
+.contact-form .list-block {
+  font-size: 13px;
+  margin: 0;
+}
+.book-appointment-page .stander-row {
+  padding: 15px 15px 0px;
+}
+.list-block ul::before,.list-block ul::after {
+  height: 0px;
+}
+.contact-form .list-block li {
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+}
+.list-block input[type="time"], .list-block input[type="number"], .list-block input[type="search"], .list-block input[type="text"], .list-block input[type="password"], .list-block input[type="email"], .list-block input[type="tel"], .list-block input[type="url"], .list-block input[type="date"], .list-block input[type="datetime-local"], .list-block select, .list-block textarea {
+  color: #fff;
+}
+.searchbar.searchbar-init.searchbar {
+  top: 60px;
+}
+.contact-form .list-block .item-title {
+  color: #ffffff;
+}
+.contact-form .list-block .item-after {
+  color: #ffffff;
+}
+.list-block .item-inner::after,.toolbar::before {
+  height: 0px;
+}
+.contact-form .item-input > input {
+  font-size: 13px !important;
+}
+.list-block > ul {
+  background: transparent none repeat scroll 0 0;
+}
+/*------------------------
+12. about department css
+--------------------------*/
+.about-department > img,.doctor-img > img{
+  width: 100%;
+}
+.about-department .stander-row {
+  padding: 15px 15px 0;
+}
+.p-footer {
+  text-align: center;
+}
+/*------------------------
+13. about doctor css
+--------------------------*/
+.availability-time {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  padding: 5px;
+}
+.availability-time table{width: 100%;}
+.availability-time table tr td {
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 4px 6px 0;
+}
+.time-title > h3 {
+  float: left;
+  margin-bottom: 0
+}
+.doctor-img,.availability-time {
+  margin-bottom: 20px;
+}
+.departmental-text > h3,.availability-time > h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.experience > h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.time-title > a {
+  background: #51b8f2 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 8px;
+  padding: 2px 10px;
+} 
+/*------------------------
+14. gallery  page css
+--------------------------*/
+.img-box {
+  line-height: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.swipebox > img {
+  width: 100%;
+}
+.pagination {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.pagination ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.pagination ul li {
+  display: inline-block;
+}
+.pagination ul li.active a{color:#51B8F2}
+.pagination ul li a {
+  color: #cccccc;
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 5px;
+}
+.pagination ul li a:hover{color:#51B8F2}
+.pagination ul li:first-child {
+  padding-right: 23%;
+}
+.pagination ul li:last-child {
+  padding-left: 23%;
+}
+.video-page .blog-img {
+  padding: 5px 0 10px;
+}
+.blog-img iframe{height: 200px;width: 100%;}
+.single-blog > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 9px;
+  padding: 0 15px;
+}
+/*-----------------------
+15. Pharmacy  page css
+--------------------------*/
+.content-bg .content-block {
+  margin: 50px 0;
+}
+.searchbar.searchbar-init.searchbar {
+  top: 50px;
+}
+.pharmacy-page .list-block {
+  color: #fff;
+  font-size: 15px;
+  margin: 50px 0;
+}
+.pharmacy-page .item-title a img {
+  margin-right: 10px;
+  width: 14px;
+}
+.list-pharmacy a {
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  padding: 10px;
+}
+.list-pharmacy a i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.pharmacy-description > p {
+  line-height: 15px;
+  margin-bottom: 5px;
+  padding: 0 15px;
+}
+.pharmacy-description .google-map {
+  margin: 25px 0;
+}
+.pharmacy-description a {
+  background: #51b8f2 none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  margin: 0 auto 25px;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+}
+/*------------------------
+16. message all page css
+--------------------------*/
+.modal-title {
+  display: none;
+}
+.message-all .review-box {
+  margin: 0;
+  width: 100%;
+}
+.message-all .list-block {
+  margin: 25px 0 15px 0px;
+}
+.message-all .review-text a {
+  font-size: 15px;
+  font-weight: bold;
+}
+.review-text span {
+  float: right;
+  font-size: 12px;
+}
+.message-all .list-block li {
+  border-top: 1px solid #aaaaaa;
+  padding: 0;
+}
+.message-all .item-content.swipeout-content {
+  min-height: 80px;
+  width: 100%;
+}
+.message-all .list-block li:last-child {
+  border-bottom: 1px solid #aaaaaa;
+}
+.popup-patient-details .list-block .item-inner {
+  color: #fff;
+}
+/*------------------------
+17.live chat css
+--------------------------*/
+.messages {
+  overflow: hidden;
+}
+.messagebar textarea + .link {
+  margin-left: 7px;
+  position: relative;
+  top: 20px;
+}
+.messages.messages-auto-layout {
+  padding-bottom: 60px;
+}
+.message-sent .message-text {
+  background-color: #51B8F2;
+}
+.messagebar textarea {
+  border-radius: 0;
+  height: 34px;
+}
+.toolbar.messagebar {
+  background: #ccc none repeat scroll 0 0;
+  padding-bottom: 58px;
+}
+/*------------------------
+18. contact us page css
+--------------------------*/
+.contact-form input {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  color: #fff;
+  height: 44px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  width: 100%;
+}
+.contact-form textarea {
+  border: 1px solid #ddd;
+  padding: 8px 2% 2%;
+  width: 96%;
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  color: #fff;
+}
+.google-map iframe  {
+  width: 100%;
+  height: 222px;
+  border:0;
+}
+.button-big{width: 100%;}
+.contact-info {
+  margin-top: 20px;
+  text-align: center;
+}
+.contact-heading{text-align: center;}
+.contact-heading h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.contact-heading p{margin-bottom: 10px;}
+.contact-button button.button.button-big {
+  background: #51b8f2 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 14px;
+  height: 34px;
+  margin: 29px auto 29px;
+  width: 100px;
+}
+.contact-info .col-100.tablet-33:last-child .contact-text{margin: 0;}
+
+/*-----------------------
+19. register login  page css
+--------------------------*/
+.login-screen .view .page {
+  padding: 0;
+  top: 0;
+}
+.register-content {
+  padding: 10px;
+}
+.registerbody {
+  background: rgba(0, 0, 0, 0) url("img/menu-bg.png") no-repeat scroll center center / cover ;
+  color: #ffffff;
+  min-height: 100%;
+}
+.register-content .inputbox > input {
+  background: hsla(0, 0%, 0%, 0) none repeat scroll 0 0;
+  border: medium none;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  height: 34px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 238px;
+}
+.form-content-box {
+  margin: 0 auto;
+  width: 280px;
+}
+.inputbox {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 5px;
+}
+.inputbox i {
+  color: #fff;
+  font-size: 24px;
+  position: relative;
+  top: 4px;
+}
+.inputbox-button {
+  margin-top: 22px;
+  text-align: center;
+}
+.login-logo {
+  color: #fff;
+  font-size: 82px;
+  font-weight: bolder;
+  padding: 44px 0 15px;
+  text-align: center;
+}
+.register-content > p,.login-with p,.login-with,.inputbox-button > p{
+  color: #fff;
+  text-align: center;
+}
+.register-content a {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+.register-content a i {
+  font-size: 25px;
+}
+.register-content .inputbox > a {
+  color: #fff;
+  float: right;
+  margin-bottom: 10px;
+}
+.button.button-big {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  color: #51b8f2;
+  font-size: 15px;
+  line-height: 0;
+  text-transform: uppercase;
+}
+.login-after-text > p {
+  color: hsl(0, 0%, 100%);
+  margin: 25px 0;
+  text-align: center;
+}
+.login-withbox {
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  width: 49%;
+}
+.login-withbox:last-child {
+  margin-right: 0;
+  width: 50%;
+}
+.login-with {
+  overflow: hidden;
+}
+.login-withbox a{margin-top: 5px;  padding: 10px 0;}

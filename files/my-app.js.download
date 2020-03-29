@@ -1,0 +1,179 @@
+// Initialize your app
+var myApp = new Framework7({
+});
+
+// Export selectors engine
+var $$ = Dom7;
+
+// Add view
+var mainView = myApp.addView('.view-main', {
+    // Because we use fixed-through navbar we can enable dynamic navbar
+    dynamicNavbar: false
+});
+      
+  var mySwiper = myApp.swiper('.swiper-container', {
+    pagination:'.swiper-pagination',
+    paginationClickable: true,
+    autoplay: 7000,
+    autoplayDisableOnInteraction: false
+  }); 
+
+ /*---------------------
+ testimoniaL page
+--------------------- */ 
+myApp.onPageInit('testimoniaL', function (page) {
+    var mySwiper = myApp.swiper('.swiper-container', {
+    pagination:'.swiper-pagination',
+    paginationClickable: true,
+    autoplay: 7000,
+    autoplayDisableOnInteraction: false
+  });
+
+});
+
+
+ /*---------------------
+ image-gallery
+--------------------- */  
+myApp.onPageInit('image-gallery', function (page) {
+
+$('.galleryimg' ).swipebox();
+
+});
+ /*---------------------
+ department page
+--------------------- */  
+myApp.onPageInit('department', function (page) {
+
+$(".click-all-department-show").on('click', function() {
+    $(".all-department").show(1000);
+    $(".click-all-department-hide").show(1000);
+    $(this).hide(1000);
+});
+
+$(".click-all-department-hide").on('click', function() {
+    $(".all-department").hide(1000);
+    $(".click-all-department-show").show(1000);
+    $(this).hide(1000);
+});
+});
+ /*---------------------
+ doctors page
+--------------------- */  
+myApp.onPageInit('doctors', function (page) {
+
+$(".click-all-doctor-show").on('click', function() {
+    $(".all-doctor").show(1000);
+    $(".click-all-doctor-hide").show(1000);
+    $(this).hide(1000);
+});
+
+$(".click-all-doctor-hide").on('click', function() {
+    $(".all-doctor").hide(1000);
+    $(".click-all-doctor-show").show(1000);
+    $(this).hide(1000);
+});
+});
+ /*---------------------
+ blog-page
+--------------------- */  
+myApp.onPageInit('blog-page', function (page) {
+   
+$(".popular-load").on('click', function() {
+    $(".show-more-popular").show(1000);
+    $(this).hide(1000);
+ 
+});
+
+});
+ /*---------------------
+ blog-page
+--------------------- */  
+myApp.onPageInit('book-appointment', function (page) {
+   var calendarDateFormat = myApp.calendar({
+    input: '#calendar-date-format',
+    dateFormat: 'DD, MM dd, yyyy'
+});
+
+});
+ /*---------------------
+ video-gallery
+--------------------- */  
+myApp.onPageInit('video-page', function (page) {
+
+$(".click-video").on('click', function() {
+    $(".show-video").show(1000);
+    $(this).hide(1000);
+ 
+});   
+});
+
+
+ /*---------------------
+ live chat page
+--------------------- */  
+myApp.onPageInit('live-chat-page', function (page) {
+var conversationStarted = false;
+ 
+// Init Messages
+var myMessages = myApp.messages('.messages', {
+  autoLayout:true
+});
+ 
+// Init Messagebar
+var myMessagebar = myApp.messagebar('.messagebar');
+ 
+// Handle message
+$$('.messagebar .link').on('click', function () {
+  // Message text
+  var messageText = myMessagebar.value().trim();
+  // Exit if empy message
+  if (messageText.length === 0) return;
+ 
+  // Empty messagebar
+  myMessagebar.clear()
+ 
+  // Random message type
+  var messageType = (['sent', 'received'])[Math.round(Math.random())];
+ 
+  // Avatar and name for received message
+  var avatar, name;
+  if(messageType === 'received') {
+    avatar = 'http://lorempixel.com/output/people-q-c-100-100-9.jpg';
+    name = 'Madhusudan';
+  }
+  // Add message
+  myMessages.addMessage({
+    // Message text
+    text: messageText,
+    // Random message type
+    type: messageType,
+    // Avatar and name:
+    avatar: avatar,
+    name: name,
+    // Day
+    day: !conversationStarted ? 'Today' : false,
+    time: !conversationStarted ? (new Date()).getHours() + ':' + (new Date()).getMinutes() : false
+  })
+ 
+  // Update conversation flag
+  conversationStarted = true;
+});                
+ 
+});
+
+
+(function ($) {
+ "use strict";
+    
+$(function(){
+
+$('.swipebox').swipebox();
+    
+  
+});
+    
+    
+})(jQuery);    
+
+  

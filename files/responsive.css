@@ -1,0 +1,21 @@
+/* small mobie. */
+@media (min-width: 320px) and (max-width:359px) {
+
+}
+/* large mobie. */
+@media (min-width: 480px) and (max-width:767px) {
+.availability-time table tr td {
+  font-size: 14px;
+  padding: 10px;
+}
+}
+
+/* Tablet mobie. */
+@media (min-width:768px) {
+.availability-time table tr td {
+  font-size: 15px;
+  padding: 12px;
+}
+
+}
+
