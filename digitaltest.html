@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html class="pixel-ratio-1 watch-active-state"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Digital COVID19 Test</title>
+			<!-- favicon
+		============================================ -->		
+    
+	<!-- font Raleway link -->  
+	<link href="files/css" rel="stylesheet" type="text/css">
+	<link href="files/css(1)" rel="stylesheet" type="text/css">
+	<!-- all css here -->
+	<link rel="stylesheet" type="text/css" href="files/bootstrap.css">
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="files/framework7.ios.min.css">
+    <link rel="stylesheet" href="files/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="files/swipebox.css">		        
+	<!-- font-awesome.min CSS -->      
+	<link rel="stylesheet" href="files/font-awesome.min.css">    
+	<!-- font-awesome.min CSS -->      
+	<link rel="stylesheet" href="files/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="files/helper.css">
+	<!-- style CSS -->          
+	<link rel="stylesheet" href="files/style.css">
+	<!-- style CSS -->          
+	<link rel="stylesheet" href="files/responsive.css">
+	<style type="text/css">
+		li{
+    list-style-type: none;
+    opacity: 0;
+
+}
+	</style>
+  </head>
+  <body data-gr-c-s-loaded="true">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal menubg">
+
+    </div>
+    <!-- Views-->
+<div class="views">
+<div class="view view-main" data-page="feature-page">
+<div class="pages">
+<div class="page toolbar-fixed page-on-left" data-page="home">
+<div class="page-content content-bg">
+
+</div>
+
+</div>
+<div data-page="feature-page" class="page page-on-center">
+	    <!-- Scrollable page content-->
+	    <div class="page-content content-bg">
+			<div class="navbar">
+			  <div class="navbar-inner">
+			  
+			    <div class="center sliding" style="left: 9.5px;">Digital Covid19 Test</div>
+				<div class="right">
+			    	<a href="#" class="link icon-only" onclick="window.history.back();"><img style="width: 25px; height: 25px;" src="files/back.png" alt=""></a>
+			    </div>
+			  </div>
+			</div>	    	
+	    	<div class="feature-page">
+		    	
+		        <div class="stander-row">
+					
+		 <button onclick="firstfunc()" id="btn1" style="width:200px; height: 60px; color: white;" class="btn button ">Start Test</button>
+			       <div class="contact-form">
+						<span style="color: white;">*Test is based on Yes or No</span>
+							<!--<textarea cols="form-control" name="message" id="inputans" cols="30" rows="6" placeholder="Your Answer Here"></textarea>--><br>&nbsp;<div class="row"><button style="background-color: #285969; border-color: white;" id="record" " class="btn"> <img style="width: 80px; height: 70px;" id="mic" src="files/mic.gif"/></div><br></button><div class="row"><input type="button" style=" width: 100px;" class="btn button subans" id="subans1" value="Yes"><input type="button" style=" width: 100px;" class="btn button subans" id="subans2" value="No"></div><br><br>
+							<div style="background: #285969; height: 60px;"  class="well"><span style="color: white;" id="result"></span></div>
+							<div class="contact-button">
+								  <!--<button id="subans" type="submit" style="width:150px; height: 50px;" class=" button button-big">Answer</button>-->
+								  <span id="Waitresult" style="opacity: 0;">click the see result button to see your result</span>
+<span id="Waitresult1" style="opacity: 0;">Please wait while we process your result</span>
+<center><img id="loader" style="height: 80px; width: 100px; margin-top: ;" src="files/41.gif"></center>
+		</div>
+		<div>
+<div ><p id="intro" style="opacity: 0;">Welcome My name is Doctor Robot, my job is to conduct a covid19 test for you, the authencity of this test depends on the sincerity of your answers during my consultation. So lets begin. </p>
+<center><button class="btn button" id="see" style="width:200px; height: 60px; margin-top: -80px; color: white;">See result</button></center></div>
+<ul><li><div id="li1" class="well">Are you experinceing a fever?</div></li>
+<li><div id="li2" class="well">Are you experinceing  tiredness?</div></li>
+<li><div id="li3" class="well">Are you experinceing  dry cough?</div></li>
+<li><div id="li4" class="well">Are you experinceing  aches and pains?</div></li>
+<li><div id="li5" class="well">Are you experinceing nasal congestion?</div></li>
+<li><div id="li6" class="well">Are you experinceing  runny nose?</div></li>
+<li><div id="li7" class="well">Are you experinceing sore throat or diarrhea?</div></li>
+<li><div id="li8" class="well">Are you experinceing Shortest in breath?</div></li>
+<li><div id="li9" class="well">Are you experinceing weakness or fatigue?</div></li>
+<li><div id="li10" class="well">Have you been out to any public gatherings for the last 10days?</div></li>
+ 
+
+<li><div id="li11" class="well">All you have told me, have you experienced them for more than 10days?  </div></li> </ul>
+						</div>
+					</div>
+					<div class="footer-row">
+						<p>2020 <sup>®</sup>  BuildforCovid19.</p>
+					</div>	
+				</div>	
+	       	</div>
+    	</div>
+   	</div></div>
+</div>
+</div>
+    	
+
+
+    <script type="text/javascript" src="files/jquery.js"></script>
+<script type="text/javascript">
+var count = 0;
+    
+function firstfunc(){
+responsiveVoice.speak(document.getElementById('intro').textContent);
+//$('#bt1').click(function(){
+setTimeout(function(){
+var q1 = responsiveVoice.speak(document.getElementById('li1').textContent);
+            },20000)
+//})
+}
+
+$(document).ready(function(){
+var finalscore = 0;
+var positive = 7;
+var a = 1;
+console.log(a);
+console.log(finalscore);
+ $(".subans").click(function(){
+             count++;
+});
+
+        
+ $('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 1) {
+input1= obj.val();
+var input1con= input1.toLowerCase();
+if( input1con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+ finalscore;
+console.log(finalscore);
+}
+var q2 = responsiveVoice.speak(document.getElementById('li2').textContent);
+
+
+
+}
+ 
+})
+
+
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 3) {
+input1= obj.val();
+var input3con= input3.toLowerCase();
+if( input3con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q3 = responsiveVoice.speak(document.getElementById('li3').textContent);
+}
+})
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 4) {
+input1= obj.val();
+var input4con= input4.toLowerCase();
+if( input4con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q4 = responsiveVoice.speak(document.getElementById('li4').textContent);
+}
+})
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 5) {
+input1= obj.val();
+var input5con= input5.toLowerCase();
+if( input5con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q5 = responsiveVoice.speak(document.getElementById('li5').textContent);
+}
+})
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 6) {
+input1= obj.val();
+var input6con= input6.toLowerCase();
+if( input6con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q6 = responsiveVoice.speak(document.getElementById('li6').textContent);
+}
+})
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 7) {
+input1= obj.val();
+var input7con= input7.toLowerCase();
+if( input7con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q7 = responsiveVoice.speak(document.getElementById('li7').textContent);
+}
+})
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 8) {
+input1= obj.val();
+var input8con= input8.toLowerCase();
+if( input8con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q8 = responsiveVoice.speak(document.getElementById('li8').textContent);
+}
+})
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 9) {
+input1= obj.val();
+var input9con= input9.toLowerCase();
+if( input9con == 'yes'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q9 = responsiveVoice.speak(document.getElementById('li9').textContent);
+}
+})
+
+$('#subans').click(function(){
+    if (count == 10) {
+var input10=  $('#inputans').val();
+var input10con= input10.toLowerCase();
+if( input10con == 'no'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q10 = responsiveVoice.speak(document.getElementById('li10').textContent);
+}
+})
+
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 11) {
+input1= obj.val();
+var input11con= input11.toLowerCase();
+if( input11con == 'no'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q10 = responsiveVoice.speak(document.getElementById('li11').textContent);
+}
+})
+
+$('.subans').click(function(){
+ 	var obj = $(this);
+if (count == 12) {
+input1= obj.val();
+var input11con= input11.toLowerCase();
+if( input11con == 'no'){
+finalscore = finalscore + a;
+console.log(finalscore);
+}
+else{
+finalscore= finalscore;
+ console.log(finalscore);
+}
+var q10 = responsiveVoice.speak(document.getElementById('Waitresult').textContent);
+}
+})
+
+
+
+$('#see').click(function(){
+ responsiveVoice.speak(document.getElementById('Waitresult1').textContent);
+$("#loader").show();
+ setTimeout(function(){
+ if (finalscore > positive) {
+var result = document.getElementById('result').innerHTML= "You may be Positive, Please  see a Doctor for futher check";
+}
+
+else{
+var result = document.getElementById('result').innerHTML= "Test Shows Negative, Please we recommend you still see a doctor";
+}
+
+$("#loader").hide();
+
+ },8000);
+
+})
+ 
+ $("#loader").hide();
+
+    })
+
+
+$("#mic").click(function(){
+	mic.src= "files/mic-animate.gif";
+	setTimeout(function(){
+	mic.src= "files/mic.gif";
+	},3000)
+
+})
+</script>
+	
+  
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=d83tpPu1"></script>
+
+</body></html>
