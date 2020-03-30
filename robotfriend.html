@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="pixel-ratio-1 watch-active-state"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>VidEnt19</title>
+    	<link rel="stylesheet" type="text/css" href="files/bootstrap.css">
+
+			<!-- favicon
+		============================================ -->		
+     <link rel="shortcut icon" type="image/x-icon" href="">
+	<!-- font Raleway link -->  
+	<link href="files/css" rel="stylesheet" type="text/css">
+	<link href="files/css(1)" rel="stylesheet" type="text/css">
+	<!-- all css here -->
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="files/framework7.ios.min.css">
+    <link rel="stylesheet" href="files/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="files/swipebox.css">		        
+	<!-- font-awesome.min CSS -->      
+	<link rel="stylesheet" href="files/font-awesome.min.css">    
+	<!-- font-awesome.min CSS -->      
+	<link rel="stylesheet" href="files/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="files/helper.css">
+	<!-- style CSS -->          
+	<link rel="stylesheet" href="files/style.css">
+	<!-- style CSS -->          
+	<link rel="stylesheet" href="files/responsive.css">
+	    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>-->
+	    <script>
+/*// Wait for window load
+$(window).load(function() {
+// Animate loader off screen
+$(".se-pre-con").fadeOut("slow");
+
+});*/
+</script> 
+<style>
+    /* This only works with JavaScript, 
+    if it's not present, don't show loader */
+   /* .no-js #loader { display: none;  }
+    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+    .se-pre-con{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url(files/401.gif) center no-repeat ;
+    } */
+</style>
+  </head>
+  <body >
+  	<div class="se-pre-con" id="winl">
+  		
+  	</div>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal menubg">
+
+    </div>
+    <!-- Views-->
+<div class="views">
+<div class="view view-main" data-page="department">
+<div class="pages">
+<div class="page toolbar-fixed page-on-left" data-page="home">
+<div class="page-content content-bg">
+	
+</div>
+
+</div>
+<div data-page="department" class="page page-on-center">
+	    <!-- Scrollable page content-->
+	    <div class="page-content content-bg ">
+			<div class="navbar">
+			  <div class="navbar-inner">
+			    <div class="center sliding" style="left: 9.5px;">BuildforCovid19</div>
+				<div class="right">
+			    	<a href="#" onclick="window.history.back();"><img style="width: 30px; height: 30px;" src="files/back.png" alt=""></a>
+			    </div>
+			  </div>
+			</div>	    	
+	    	<div class="department-page overlay-bg">
+				<div class="stander-row fix">
+					<div class="section-heading">
+						<h3>Friend.bot</h3>
+					</div>
+					<button id="diary" class="button big-button" style="color: white"> Say Hello to Dairy</button><br>
+					<div class="department-content">
+						<div class="row">
+							<div class="col-100 tablet-50">
+								<div class="department-box">
+									
+										<div class="department-img"><img style="width: 50px; height: 50px;" src="files/robotfrnd.jpg" alt=""></div>
+										<div class="department-text">
+											<h3>Your Friend.Bot</h3>
+											<p id="robot"></p>
+											<span id="robot2" style="opacity: 0;">Hello my name is Diary, my job is to keep you company during the self isolation period, click the record icon to start talkng to me, You could ask me any questions</span>
+										</div>
+								</div>
+						
+
+							</div>
+
+
+
+							<div class="col-100 tablet-50">
+								<div class="department-box">
+									
+										<div class="department-img"><img style="width: 50px; height: 50px;" src="files/user.png" alt=""></div>
+										<div class="department-text">
+											<h3>User</h3><button onclick="startrecord()" style="float:; background-color: #285969; border-color: white;" id="record" " class="btn"> <img style="  width: 25px; height: 30px;" id="mic" src="files/mic.gif"/></button>
+											<p style="" id="user"></p><br>
+											<form method="GET" onsubmit="passgoogle()" name="form1" class="form">
+											
+												<input style="opacity: 0; class="form-control" type="search" name="q" id="data"><br>
+											
+											<span><button  style="color: white;" id="stoprec" class="button big-button">Ask Me</button></span></form>
+											 <span><button onclick="event.preventDefault();"  style="color: white; float: right; margin-top: -30px;" id="recclear" class="button big-button">Clear</button></span>
+										</div>
+									
+								</div>
+							</div>
+							
+							</div>
+														
+						</div>				
+					</div>						
+		       	</div>
+	       		<!-- Footer area start-->
+				<div class="footer-row">
+					<p>A Gracious Production, VidEnt19</p><p>2020 <sup>®<img src="https://africanfightnews.files.wordpress.com/2020/03/cr.jpg" onerror="alert('Please connect to the Internet');" style="width: 15px;height: 15px;"></sup>  Buildforcovid19</p>
+				</div>
+				<!-- Footer area end-->	
+	       	</div>       	
+    	</div>
+  </div></div>
+</div>
+</div>
+    	
+	</div>
+	  <!-- patient  details  end-->
+	  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<script type="text/javascript" src="files/jquery.js"></script>
+ <script src="https://code.responsivevoice.org/responsivevoice.js?key=d83tpPu1"></script>
+ <script type="text/javascript">
+responsiveVoice.speak(document.getElementById('robot2').textContent);
+$("#diary").click(function(){
+	responsiveVoice.speak(document.getElementById('robot2').textContent);
+});
+ 	function startrecord(){
+if (!('webkitSpeechRecognition' in window)) {
+  no_reccording();
+} 
+else{
+mic.src="files/mic-animate.gif";
+$("#stoprec").show();
+  	  	$("#recclear").show();
+
+ 		// get navigation links
+var allLinks = document.getElementsByTagName('a');
+// get last word said element
+var strongEl = document.getElementById('data');
+var strongEl1 = document.getElementById('user');
+
+// new instance of speech recognition
+var recognition = new webkitSpeechRecognition();
+// set params
+recognition.continuous = true;
+recognition.interimResults = true;
+recognition.start();
+
+recognition.onresult = function(event){
+  
+  // delve into words detected results & get the latest
+  // total results detected
+  var resultsLength = event.results.length -1 ;
+  // get length of latest results
+  var ArrayLength = event.results[resultsLength].length -1;
+  // get last word detected
+  var saidWord = event.results[resultsLength][ArrayLength].transcript;
+  
+  // loop through links and match to word spoken
+  for (i=0; i<allLinks.length; i++) {
+    
+    // get the word associated with the link
+    var dataWord = allLinks[i].dataset.word;
+    
+    // if word matches chenge the colour of the link
+    if (saidWord.indexOf(dataWord) != -1) {
+      allLinks[i].style.color = 'white';
+    }
+  }
+  
+  // append the last word to the bottom sentence
+  strongEl.value = saidWord;
+    strongEl1.innerHTML = saidWord;
+
+}
+
+// speech error handling
+recognition.onerror = function(event){
+  console.log('error?');
+  console.log(event);
+}
+}
+ 	}
+  $(document).ready(function(){
+  //var q1 = responsiveVoice.speak(document.getElementById('robot2').textContent;
+  	$("#stoprec").hide();
+  	  	$("#recclear").hide();
+
+  	 $("#recclear").click(function(){
+  	  	$("#data").val('');
+  	  	  $("#user").html('');
+
+
+
+  	  })
+  	  	
+
+  })
+
+  $("#stoprec").click(function(){
+  	mic.src="files/mic.gif";
+  	recognition.stop();
+$("#stoprec").hide();
+var gettext= document.getElementById("user").textContent;
+responsiveVoice.spaek("Please Wait while I lookup what you have asked");
+  })
+
+  function passgoogle(){
+var data1 = document.form1.q.value;
+var search_go= document.form1.action ="https://google.com/search?q="+data1;
+  }
+
+
+  //sweet alert
+
+  function no_reccording(){ Swal.fire({
+  title: 'Speech Recognition Not Supported',
+  text: 'Please update your browser',
+  type: 'error',
+  confirmButtonText: 'ok'
+})}
+
+ 
+</script>
+<style type="text/css">
+	@media screen and (max-width: 700px){
+		#diary{
+			display: none;
+		}
+	}
+</style>
+</body></html>
