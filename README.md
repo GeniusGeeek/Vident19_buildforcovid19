@@ -14,3 +14,5 @@ VidEnt19 social feature is built to keep user company and entertained during the
 VIDENT19 was built locally for Nigerians in mind under the #buldforcovid19 hackathon, it almost ready for consumption, it is still in it beta stage.
 
 THE BEAUTY OF VIDENT19 IS THE POWER OF ITS COMMUNICATION AND HEALTH
+
+VidEnt19 consumes some links, APIs and resources from the internet, So please switch on your Internet. 
