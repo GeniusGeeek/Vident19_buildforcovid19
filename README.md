@@ -16,3 +16,6 @@ VIDENT19 was built locally for Nigerians in mind under the #buldforcovid19 hacka
 THE BEAUTY OF VIDENT19 IS THE POWER OF ITS COMMUNICATION AND HEALTH
 
 VidEnt19 consumes some links, APIs and resources from the internet, So please switch on your Internet. 
+
+See VidEnt19 working here:
+https://geniusgeeek.github.io/Vident19_buildforcovid19/
