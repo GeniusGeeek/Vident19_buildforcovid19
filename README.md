@@ -2,7 +2,7 @@
 Project Name:  VIDENT19
 ------------------------------------------------------------------------------------------------------------------
                                                                                                                   
-A hackathon project done for #buildforcovid19 by Gracious Emmanuel                                                
+A hackathon project done for #buildforcovid19                                              
                                                                                                                   
 ------------------------------------------------------------------------------------------------------------------
 
